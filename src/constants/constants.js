@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
+    title: 'Homelab',
+    description: "Using 2 Raspberry PIs, I started a lab at home to emulate and learn more about enterprise enviornments. Using Kubernetes and Docker containers to run the Elastic stack and file automation code written in python.",
       image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+      tags: ['Python', 'Kubernetes', 'Docker'],
+    source: 'https://github.com/Nagamakii/Homelab',
+    visit: '',
     id: 0,
   },
   {

@@ -1,49 +1,54 @@
 import React from 'react';
-import { DiTerminal, DiPython, DiRasberryPi } from 'react-icons/di';
+import { DiPython, DiTerminal, DiRasberryPi } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
   <Section id="tech">
-    <SectionDivider />
-    <br />
+    <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I am a big kid I swear!
+      I've commited myself to learning and understanding as many new technologies as I possibly can
     </SectionText>
     <List>
       <ListItem>
-        <DiPython size="3rem" />
+        <picture>
+          <DiPython size="3rem" />
+        </picture>
         <ListContainer>
-          <ListTitle>Scripting</ListTitle>
+          <ListTitle>Python</ListTitle>
           <ListParagraph>
-            Proficiency with <br />
-            Python, Powershell, and other automated workflow software
+            Experiece <br />
+            using python and powershell to automate tasks
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiTerminal size="3rem" />
+        <picture>
+          <DiTerminal size="3rem" />
+        </picture>
         <ListContainer>
-          <ListTitle>OS Admininstration</ListTitle>
+          <ListTitle>OS Administration</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            both windows and linux <br />
-            in a buisness enviornment
+            First hand <br />
+            experiece with both Windows and Linux operating systems
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiRasberryPi size="3rem" />
+        <picture>
+          <DiRasberryPi size="3rem" />
+        </picture>
         <ListContainer>
-          <ListTitle>Single Board Computing</ListTitle>
+          <ListTitle>Single-Board Computing</ListTitle>
           <ListParagraph>
-            Extensive work <br />
-            with RasberryPis, Arduinos, and Sparkfun devices
+            Expanding <br />
+            my knowledge into Raspberry pi and Arduino devices
           </ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
+    <SectionDivider colorAlt />
   </Section>
 );
 
