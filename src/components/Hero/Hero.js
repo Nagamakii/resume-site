@@ -15,7 +15,7 @@ const Hero = (props) => (
         <SectionText>
         CompTIA Security+ certified. Working to create a more positive and environmentally friendly future through innovative technology and cybersecurity.
         </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
+          <Button onClick={() => window.location = 'https://www.linkedin.com/in/evan-quah/'}>Learn More</Button>
       </LeftSection>
     </Section>
   </>

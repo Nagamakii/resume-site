@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiPython, DiTerminal, DiRasberryPi } from 'react-icons/di';
+import { DiPython, DiTerminal, DiAptana } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -16,10 +16,22 @@ const Technologies = () =>  (
           <DiPython size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Python</ListTitle>
+          <ListTitle>Scripting</ListTitle>
           <ListParagraph>
-            Experiece <br />
-            using python and powershell to automate tasks
+            Leveraging <br />
+            Python, Powershell, and JavaScript to build scripts and applications to make life more simple 
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <picture>
+          <DiAptana size="3rem" />
+        </picture>
+        <ListContainer>
+          <ListTitle>Automation</ListTitle>
+          <ListParagraph>
+            Hands on <br />
+            experiece automating tasks with python, powershell, zapier, and more
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -28,22 +40,10 @@ const Technologies = () =>  (
           <DiTerminal size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>OS Administration</ListTitle>
+          <ListTitle>Administration</ListTitle>
           <ListParagraph>
             First hand <br />
-            experiece with both Windows and Linux operating systems
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <picture>
-          <DiRasberryPi size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>Single-Board Computing</ListTitle>
-          <ListParagraph>
-            Expanding <br />
-            my knowledge into Raspberry pi and Arduino devices
+            experiece managing both Windows and Linux operating systems for end users
           </ListParagraph>
         </ListContainer>
       </ListItem>
