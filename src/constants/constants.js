@@ -30,9 +30,9 @@ export const projects = [
     title: 'Portfolio Website',
     description: "To further my understanding of computer science and web development, I created this site. It allows me to give an interactive experience while showing people what I am capable of.",
     image: '/images/4.jpg',
-    tags: ['React', 'HTML', 'Next.js'],
+    tags: ['React', 'Cloudflare', 'Next.js'],
     source: 'https://github.com/Nagamakii/resume-site',
-    visit: 'https://google.com',
+    visit: 'https://github.com/Nagamakii/resume-site',
     id: 3,
   },
 ];
